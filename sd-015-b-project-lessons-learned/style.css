@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 251, 251);
+    font-family:fantasy monospace;
+    font-size: 16px;
+    line-height: normal;
+    color: rgb(17, 10, 0);
+    
+}
+
+main article h2 {
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 25px;
+    
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    background-color: rgb(8, 126, 8);
+    width: 100%;
+}
+
+#titulo {
+    font-family:fantasy monospace;
+    font-size: 35px;
+    word-spacing: 5px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#minha_foto {
+    width: 250px;
+    margin-top: 125px;
+    margin-left: 20px;
+}
+
+#link-nome {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.cabecalho-tabela {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 47%;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 47%;
+    
+}
+
+.lado-direito article {
+    padding-bottom: 100px;
+}
