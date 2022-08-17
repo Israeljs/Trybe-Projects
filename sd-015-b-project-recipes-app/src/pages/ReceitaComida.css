@@ -1,0 +1,65 @@
+.movieRow {
+    margin-bottom: 70px;
+}
+
+.movieRow h2 {
+    margin: 0 0 0 30px;
+}
+
+.movieRow--listarea {
+    overflow-x: hidden;
+    padding-left: 10px;
+}
+
+.movieRow--item {
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+}
+
+.movieRow--item img {
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+    width: 100%;
+}
+
+.movieRow--item img:hover {
+    transform: scale(1);
+}
+
+.movieRow--left, .movieRow--right {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    display: flex;
+    height: 225px;
+    justify-content: center;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all ease 0.5s;
+    width: 40px;
+    z-index: 99;
+}
+
+.movieRow--left {
+    right: 100px;
+}
+
+.movieRow--right {
+    left: 500px;
+}
+
+.movieRow:hover .movieRow--left, .movieRow:hover .movieRow--right {
+    opacity: 1;
+}
+
+.drink--category {
+    margin-top: 1px;
+    text-align: center;
+
+}
+
+.drink--name {
+    text-align: center;
+}
